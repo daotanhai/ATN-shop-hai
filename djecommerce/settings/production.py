@@ -1,7 +1,7 @@
 from .base import *
 
 DEBUG = False
-ALLOWED_HOSTS = ['shop-app-django.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 AUTH_PASSWORD_VALIDATORS = [
     {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator'},
@@ -14,10 +14,10 @@ AUTH_PASSWORD_VALIDATORS = [
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd24se35lcq78vc',
-        'USER': 'mkbdtuxrmwglsr',
-        'PASSWORD': '36e6d7fa32c2305ee7cd8c5a6bddcbf6e0c803e29ba4df289acd4242bbbb08d6',
-        'HOST': 'ec2-3-228-114-251.compute-1.amazonaws.com',
+        'NAME': 'ddt0a6dcqdl63h',
+        'USER': 'gsvliwarukkkzq',
+        'PASSWORD': '8a4c148d0a2f926fc025b5f336ad832107ad71fe682c687a24de67914cc36eff',
+        'HOST': 'ec2-54-155-87-214.eu-west-1.compute.amazonaws.com',
         'PORT': '5432'
     }
 }
